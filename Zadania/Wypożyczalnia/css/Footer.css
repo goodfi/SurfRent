@@ -1,0 +1,36 @@
+footer{
+    margin: 0 auto;
+    max-width: 1184px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 300px;
+    flex-wrap: wrap;
+}
+
+.footer-p{
+    max-width: 200px;
+    font-size: 23px;
+    color: rgba(25, 24, 37, 0.5);
+    font-weight: rgba(25, 24, 37, 0.5);
+    line-height: bold;
+}
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:20px;
+    
+}
+footer div p{
+    font-size: 18px;
+    line-height: 160%;
+    color: rgba(25, 24, 37, 0.75);
+
+}
+
+.footer-logo img{
+    width: 32px;
+    height: 32px;
+    border-radius: 99999px;
+}
