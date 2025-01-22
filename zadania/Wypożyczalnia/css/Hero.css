@@ -1,0 +1,61 @@
+#hero{
+    margin: 0 auto;
+    max-width: 1184px;
+    margin-bottom: 40px;
+}
+
+#hero .grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .grid-item{
+    text-align: center;
+    width: 40%;
+}
+
+#hero .grid-item h1{
+    text-align: start;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 120%;
+}
+
+#hero .grid-item h1 span{
+    color: rgba(65, 176, 191, 1);
+}
+#hero .grid-item2{
+    width: 70%;
+}
+
+
+
+#hero img{
+    width: 100%;
+}
+
+#hero button{
+    background-color: #00A5A7;
+    color: white;
+    border:none;
+    border-radius: 100px;
+    padding:16px 32px;
+    margin: 0 auto;
+}
+
+
+@media (max-width:1200px) {
+    #hero .grid-item h1{
+        font-size: 44px;
+    }
+    
+   }
+
+
+   @media (max-width:500px) {
+    #hero .grid-item h1{
+        font-size: 34px;
+        
+    }
+   }

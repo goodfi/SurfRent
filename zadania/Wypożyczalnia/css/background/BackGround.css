@@ -1,0 +1,11 @@
+.bg-img{
+    position: absolute; 
+    right: 1px;
+    left: 1px;
+    width: 100%;
+    z-index: -1;
+}
+.relative{
+    position: relative;
+
+}

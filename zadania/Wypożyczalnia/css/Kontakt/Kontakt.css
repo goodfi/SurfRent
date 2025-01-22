@@ -1,0 +1,198 @@
+.kontakt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.contact{
+    margin: 180px auto;
+    max-width: 1184px;
+}
+.contact h1{
+    width: 100%;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 23px;
+    color:#41B0BF;
+}
+
+.contact h2{
+    font-size: 55px;
+    font-weight: bold;;
+}
+
+.form-div{
+    background: white;
+    max-width: 1056px;
+    padding: 32px;
+    border-radius: 24px;
+}
+
+form{
+    z-index: 99;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+input{
+    border: none;
+    width: 100%;
+}
+
+input:focus{
+    outline: none;
+}
+
+.form-input{
+    display: flex;
+    width: 100%;
+    gap:20px
+}
+
+
+textarea{
+    border:none;
+    width: 100%;
+}
+
+textarea:focus{
+    outline: none;
+}
+
+
+.checked{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.checked input{
+    width: 10px;
+}
+
+
+@media (max-width:1000px) {
+    .kontakt{
+        flex-direction: column-reverse;
+    }
+    
+   }
+
+@media (min-width:600px){
+    .form-input .inp-name,.form-input .inp-email{
+        width: 100%;
+    }
+}
+@media (max-width:600px){
+    .form-input{
+        display: flex;
+        flex-direction: column;
+        gap:40px
+    }
+
+}
+
+
+
+/* form input */
+
+.inp-name{
+    width: calc(100%-16px);
+    border-radius: 4px;
+    background-color: white;
+    border:1px solid  rgba(0, 0, 0, 0.3);
+    position: relative;
+    padding: 8px;
+
+
+}
+.inp-name::after{
+    position: absolute;
+    content: "Full name";
+    top:-10px;
+    left: 10px;
+    padding: 0 4px;
+
+    background-color: rgb(255, 255, 255);
+}
+
+
+.inp-email{
+    width: calc(100%-16px);
+    border-radius: 4px;
+    background-color: white;
+    border:1px solid  rgba(0, 0, 0, 0.3);
+    position: relative;
+    padding: 8px;
+
+}
+.inp-email:after{
+    position: absolute;
+    content: "Email";
+    top:-10px;
+    left: 10px;
+    padding: 0 4px;
+
+    background-color: rgb(255, 255, 255);
+}
+
+.inp-phone{
+    width: calc(100%-16px);
+    border-radius: 4px;
+    background-color: white;
+    border:1px solid  rgba(0, 0, 0, 0.3);
+    position: relative;
+    padding: 8px;
+
+}
+.inp-phone::after{
+    position: absolute;
+    content: "Phone";
+    top:-10px;
+    left: 10px;
+    padding: 0 4px;
+
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+
+.inp-text{
+    width: calc(100%-16px);
+    border-radius: 4px;
+    background-color: white;
+    border:1px solid  rgba(0, 0, 0, 0.3);
+    position: relative;
+    padding: 8px;
+
+}
+.inp-text::after{
+    position: absolute;
+    content: "Description";
+    top:-10px;
+    left: 10px;
+    padding: 0 4px;
+
+    background-color: rgb(255, 255, 255);
+}
+
+
+.form-btn{
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    padding: 8px 22px;
+    background-color: #fa732e;
+    border-radius: 8px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    font-size:  15px;
+    box-shadow: 1px 5px 12px 0px rgba(15, 15, 15, 0.3);
+}

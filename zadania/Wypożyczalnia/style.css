@@ -1,0 +1,24 @@
+
+@import url('./css/Header.css');
+@import url('./css/Hero.css');
+@import url('./css/GridLayouts.css');
+@import url("./css/Oferta.css");
+@import url("./css/Footer.css");
+@import url("./css/Oferta/Table.css");
+@import url("./css/Kontakt/Kontakt.css");
+@import url("./css/background/BackGround.css");
+
+body{
+    font-family: Roboto;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+section{
+    padding: 0 20px;
+}
+
+iframe{
+    border-radius: 8px;
+}
+

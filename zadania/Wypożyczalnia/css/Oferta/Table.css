@@ -1,0 +1,36 @@
+.offer{
+    text-align: center;
+    margin-bottom: 180px;
+    margin: 0 auto;
+    max-width: 1184px;
+}
+
+.table h3{
+    color:#FA732E;
+    font-size: 48px;
+    margin: 0;
+}
+.table{
+    text-align: start;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td{
+    text-align: start;
+    padding: 16px;
+}
+tr{
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+.tr{
+    background-color: rgba(33, 150, 243, 0.08);
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+table:last-child{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}

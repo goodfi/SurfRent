@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+     
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <a href="/" class="logo"><img src="./img/Logo.png" alt="SurfRent"></a>
+            <ul class="menu">
+                <li><a href="/">Strona główna</a></li>
+                <li><a href="oferty.html">Oferta</a></li>
+                <li><a href="o-nas.html">O Nas</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+            <div class="mobile-menu">
+                <div class="line "></div>
+                <div class="line "></div>
+                <div class="line "></div>
+
+                <div class="mobile-absolute hidden">
+                    <ul class="menu-mob">
+                        <li><a href="/">Strona główna</a></li>
+                        <li><a href="oferty.html">Oferta</a></li>
+                        <li><a href="o-nas.html">O Nas</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="relative">
+        <div class="contact ">
+        <img src="./img/Layer_1.svg" class="bg-img"  alt="layer">
+        <h1>Kontakt</h1>
+
+
+        <div class="kontakt">
+            <table>
+                <tr >
+                    <td>Adres:</td>
+                    <td>ul. Lubelska 1, 20-643 Chałupy</td>
+                </tr>
+                <tr>
+                    <td>Telefon:</td>
+                    <td>+48 123 123 123</td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td>surf@rent.pl</td>
+                </tr>
+            </table>
+            <div>
+                <img src="./img/map.png" alt="Mapa">
+            </div>
+        </div>
+
+        <h2>Jeśli masz pytanie napisz do nas...</h2>
+        <!-- Formularz kontaktowy -->
+         <div class="form-div">
+        <form action="#">
+            <div class="form-input">
+            <div class="inp-name">
+            
+                <input type="text" required name="imie" placeholder="Imię i nazwisko">
+            </div>
+            <div class="inp-email">
+                <input type="email" required name="email" placeholder="Adres e-mail">
+            </div></div>
+            <div class="inp-phone">
+                <input type="tel" name="telefon "  required="Telefon">
+            </div>
+            <div>
+            <div class="inp-text">
+                <textarea name="uwagi"  required="Uwagi/zapytanie"></textarea>
+            
+               
+            </div> <div class="checked">
+                    <input type="checkbox" required name="Regulamin" id="">
+                    <label for="Regulamin">Akceptuje regulamin</label>
+                </div></div>
+
+            <button class="form-btn" type="submit">Wyślij</button>
+        </form></div></div>
+    </section>
+    <footer>
+        <div class="logo"><img src="./img/Logo.png" alt="SurfRent"></div>
+        <div class="footer-p">
+            <p>Zapraszamy do miejsca gdzie spędzisz czas z ludźmi pełnymi pasji!</p>
+        </div>
+        <div class="footer-wrapper">
+        <div class="footer-logo">
+            <img src="/img/icon.png" alt="icon">
+            <img src="/img/icon.png" alt="icon">
+            <img src="/img/icon.png" alt="icon">
+        </div>
+        <div >
+            <h4>Kontakt</h4>
+            <p>+48 123 123 123</p>
+            <p>surf@rent.pl</p>
+            <p>ul. Lubelska 1, 20-643 Chałupy</p>
+        </div></div>
+    </footer>
+</body>
+</html>
